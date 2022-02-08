@@ -17,14 +17,21 @@ h2 {
 }
 
 button {
-  color: #016f32;
   width: 150px;
+  color: #016f32;
   background: goldenrod;
   padding-top: 5px;
   padding-bottom: 5px;
   font-weight: bold;
-  border: none;
+  border: 1px solid goldenrod;
   border-radius: 2px;
   margin-bottom: 2px;
   margin-top: 2px;
+  cursor: pointer;
+}
+
+button:focus {
+  color: goldenrod;
+  background: #016f32;
+  border: 2px solid rgb(81, 163, 230);
 }
